@@ -88,7 +88,7 @@ header{
 	height: 130px;
 	z-index: 99;
   /* CHANGE HEADER COLOR */
-	background-color: #47ad76;
+	background-color: #f50772;
 }
 
 header .logo{
@@ -185,7 +185,7 @@ header .social li:first-child{
 	width: 100%;
 	height: 560px;
   /* CHANGE Hero Image */
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/modelscarf.jpeg') no-repeat fixed center center;
 	background-size: cover;
 }
 
@@ -201,7 +201,7 @@ header .social li:first-child{
 }
 
 .hero .caption h1{
-	color: #525252;
+	color: #fff;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
@@ -224,21 +224,21 @@ a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 40px;
-	border: 2px solid #525252;
+	border: 2px solid #fff;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
 
-	color: #525252;
+	color: #fff;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
 a.app_store_btn:hover,
 a.app_store_btn:focus{
-	border-color: #41c27d;
-	color: #41c27d!important;
+	border-color: #fa6705;
+	color: #fa6705!important;
 }
 
 a.app_link{
@@ -252,7 +252,7 @@ a.app_link{
 a.app_link:hover,
 a.app_link:focus{
 	text-decoration: none;
-	color: #41c27d!important;
+	color: #fa6705!important;
 }
 
 a.app_store_btn,
@@ -397,7 +397,7 @@ a.main_link{
 	width: 100%;
 	padding: 100px 0 20px 0;
   /* CHANGE FEATURE COLOR */
-	background-color: #41c17d;
+	background-color: #f50772;
 }
 
 .features h1{
