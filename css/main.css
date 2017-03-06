@@ -88,9 +88,8 @@ header{
 	height: 130px;
 	z-index: 99;
   /* CHANGE HEADER COLOR */
-	background-color: #f50772;
+	background-color:#f50776;
 }
-
 header .logo{
 	display: table-cell;
 	margin: 45px 100px 0 0;
@@ -170,6 +169,14 @@ header .social li:first-child{
 
 
 
+.border {
+   background-image: url("top-orange.png");
+   background-repeat: repeat-x;
+   border: 1px;
+   height: 100px;
+   
+}
+
 
 
 
@@ -179,14 +186,19 @@ header .social li:first-child{
 
 /*		Hero section 		*/
 
+/*
 .hero{
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 560px;
+	*/
   /* CHANGE Hero Image */
+  /*
 	background: url('../img/modelscarf.jpeg') no-repeat fixed center center;
 	background-size: cover;
+	*/
+
 }
 
 .hero .caption{
@@ -224,13 +236,13 @@ a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 40px;
-	border: 2px solid #fff;
+	border: 2px solid #f50776;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
 
-	color: #fff;
+	color: #f50776;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
@@ -296,7 +308,7 @@ a.main_link{
 
 .about{
   /* CHANGE ABOUT COLOR */
-  background-color: #fff;
+  background-color: #FFF;
 	padding: 100px 0;
 }
 /* CHANGE About Image */
@@ -354,22 +366,22 @@ a.main_link{
 }
 
 .about .features_list ul li.camera_icon{
-	background: url('../img/icon1.png') no-repeat;
+	background: url('../img/red-scarf.jpg') no-repeat;
 	background-position: 0 15px;
 }
 
 .about .features_list ul li.video_icon{
-	background: url('../img/icon2.png') no-repeat;
+	background: url('../img/purple-scarf.jpg.png') no-repeat;
 	background-position: 0 15px;
 }
 
 .about .features_list ul li.eye_icon{
-	background: url('../img/icon3.png') no-repeat;
+	background: url('../img/bandhani-scarf.jpg') no-repeat;
 	background-position: 0 14px;
 }
 
 .about .features_list ul li.pic_icon{
-	background: url('../img/icon4.png') no-repeat;
+	background: url('../img/black-and-gold-scarf.jpg') no-repeat;
 	background-position: 0 14px;
 }
 
@@ -397,11 +409,11 @@ a.main_link{
 	width: 100%;
 	padding: 100px 0 20px 0;
   /* CHANGE FEATURE COLOR */
-	background-color: #f50772;
+	background-color: #fff;
 }
 
 .features h1{
-	color: #fff;
+	color: #fa6705;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin: 50px 0 0 0;
@@ -409,7 +421,7 @@ a.main_link{
 }
 
 .features p{
-	color: #e0f7eb;
+	color: #fa6705;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin: 30px 0 0 0;
@@ -642,7 +654,7 @@ footer{
 	padding: 50px 0;
 	text-align: center;
   /*CHANGE FOOTER BACKGROUND COLOR*/
-  background-color: #eaeaea;
+  background-color: #f50776;
 }
 
 footer .app_platform li{
@@ -655,7 +667,7 @@ footer .app_platform li:first-child{
 
 footer .copyright{
 	margin-top: 60px;
-	color: #757171;
+	color:#000;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	letter-spacing: .5px;
